@@ -1,0 +1,110 @@
+header {
+    width: 100%;
+    height: 43px;
+    background-color: rgb(44, 40, 40);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    font-size: .75em;
+}
+
+nav > .ulLeft {
+
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav > .ulRight {
+
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+}
+
+.gitLogo {
+    background-color: white;
+    border-radius: 50%;
+}
+
+header input {
+    width: 200px;
+    background-color: rgb(78, 71, 71);
+    border-radius: 4px;
+    border-style: solid;
+    border-color:   rgb(44, 40, 40);
+    padding: 4px;
+    color: rgb(202, 201, 201);
+    font-size: .75em;
+}
+
+nav li {
+    margin: auto 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column; 
+    max-width: 200px;
+}
+
+aside img {
+    min-width: 100px;
+    height: 200px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#tabs {
+    margin: 40px;
+    display: flex;
+}
+
+#tabs div {
+    margin-right: 15px;
+}
+
+#repos {
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 2px;
+}
+
+#repos div {
+    padding: 50px 200px;
+}
+
+/* #repos > div {
+    height: ;
+} */
